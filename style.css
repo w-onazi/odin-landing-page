@@ -1,0 +1,227 @@
+body{
+    height:100vh;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    font-family: system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji';
+}
+
+.header,.footer,.section1{
+    background:#1f2937;
+    display:flex;
+}
+
+ul{
+    list-style: none;
+    display:flex;
+    gap:30px;
+}
+
+a{
+    text-decoration: none;
+    color:#f9faf8;
+    font-size:15px;
+}
+
+/*header*/
+.header{
+    padding:0px 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    color:#f9faf8;
+    font-size:24px;
+    font-style: italic;
+    font-weight:1000;
+}
+
+/*section1*/
+.section1{
+    display:flex;
+    flex:3;
+    padding:60px;
+    justify-content:space-between;
+    align-items: center;
+    margin:0px;
+    gap:20px;
+}
+
+.section1 .content{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.content .title{
+    color:#f9faf8;
+    font-weight: 1000;
+    font-size:48px;
+}
+
+.content div{
+    color:#f9faf8;
+    font-weight: 10;
+    font-size:18px;
+}
+
+.section1 button{
+    flex-basis:auto;
+    width: 120px;
+    height: 40px;
+    margin-top:10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 700;
+    border:none;
+    border-radius: 20px;
+}
+
+.section1 img{
+    height: 300px;
+    border-radius:10px;
+    display:flex;
+    justify-content: flex-start;
+}
+
+
+/*section 2*/
+.section2{
+    display:flex;
+    flex-direction: column;
+    flex:3;
+    padding:40px 60px;
+}
+
+.section2 h2{
+    font-size:36px;
+    text-align: center;
+    color:#1f2937;
+}
+
+.section2 .container{
+    display:flex;
+    padding-top:10px;
+    flex-wrap:wrap;
+    gap:40px;
+    justify-content: space-evenly;
+}
+
+.section2 .info{
+    display:flex;
+    flex-direction: column;
+    max-width:300px;
+}
+
+.section2 img{
+    width: 285px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px #8b9cb6;
+    border-radius: 10px;
+    padding:15px;
+    height: auto;
+}
+
+.section2 .text{
+    margin:10px 0px;
+    padding:20px 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:18px;
+    color:#1f2937;
+    font-weight: 700;
+}
+
+
+/*section 3*/
+.section3{
+    display:flex;
+    flex:2;
+    justify-content: center;
+    align-items: center;
+    padding:60px 60px;
+    background: #e5e7eb;
+}
+
+.section3 .container{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    gap:30px
+}
+
+.section3 .text{
+    font-size:26px;
+    font-style:oblique;
+}
+
+.section3 .sign{
+    align-self: flex-end;
+    font-size:20px;
+    font-weight: 800;
+}
+
+/*section 4*/
+.section4{
+    display:flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    padding:70px;
+}
+
+.section4 .container{
+    box-sizing: border-box;
+    background-color: #3882f6;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    max-width: 1400px;
+    padding:20px 60px;
+    border-radius: 25px;
+}
+
+.section4 .action{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    color:#f9faf8;
+    gap: 10px;
+    font-size:18px;
+}
+
+.action .title{
+    font-size:22px;
+    font-weight: 900;
+}
+
+.section4 button{
+    background-color: #3882f6;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    height: 40px;
+    width: 150px;
+    padding: 5px;
+    border: solid 2px white;
+    border-radius: 8px;
+
+}
+
+/*Footer*/
+.footer{
+    padding:20px 60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
